@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 )
+
 /* 每次从标准输入读取一行 */
 func ScannerFromStdin() {
 	counts := make(map[string]int)
@@ -31,6 +32,7 @@ func ScannerFromFile() error {
 	}
 	return nil
 }
+
 /* 编程方法
  * 1.bufio.NewScanner构造新的结构体(对象)
  * 2.Scan()移动游标
